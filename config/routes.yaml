@@ -1,0 +1,17 @@
+
+
+upload_data:
+    path: /api/upload
+    controller: App\Controller\UserController::uploadData
+
+view_users:
+    path: /api/users
+    controller: App\Controller\UserController::viewUsers
+
+backup_db:
+    path: /api/backup
+    controller: App\Controller\UserController::backupDatabase
+
+restore_db:
+    path: /api/restore
+    controller: App\Controller\UserController::restoreDatabase
